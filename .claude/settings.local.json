@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python models.py)",
+      "Bash(python -m pytest test_bytebites.py -v)"
+    ]
+  }
+}

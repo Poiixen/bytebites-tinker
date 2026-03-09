@@ -24,7 +24,7 @@ class Order:
 
     def add_item(self, item: MenuItem):
         self.items.append(item)
-
+        
     def compute_total(self) -> float:
         return sum(item.price for item in self.items)
 
